@@ -1,8 +1,30 @@
-# Simple-JavaFX-GIS-Map-Viewer-with-GeoTools
-Created a 2D vector map viewer application using JavaFX for the UI and GeoTools library for GIS data handling.
-Loaded and rendered a shapefile (e.g., Natural Earth countries boundary data) as vector features.
-Applied SLD (Styled Layer Descriptor) styling for visualization, displayed the map in a JMapPane embedded via SwingNode.
-Set up map content with bounds and renderer for smooth display and interaction.
-Showcases ability to work with open-source GIS tools, handle shapefile data sources, apply cartographic styling, and integrate Java-based geospatial libraries into a modern JavaFX desktop application.
+# Simple JavaFX GIS Map Viewer with GeoTools
 
-Tech Stack: Java, JavaFX, GeoTools (gt-shapefile, gt-swing), SwingNode
+2D vector map viewer application built with JavaFX and GeoTools.
+
+### Overview
+Created a desktop GIS viewer that loads and renders shapefiles as interactive vector maps.  
+- Loaded Natural Earth countries boundary data (shapefile format)  
+- Applied SLD styling for clean visualization (fill, outline)  
+- Embedded the map in a JavaFX window using JMapPane + SwingNode  
+- Added basic pan/zoom interaction (mouse drag + buttons)  
+
+Showcases open-source GIS integration, shapefile handling, cartographic styling, and JavaFX desktop UI development.
+
+### Tech Stack
+- Java  
+- JavaFX  
+- GeoTools (gt-shapefile, gt-swing)  
+- SwingNode  
+
+### Screenshots
+![Full Map View](screenshots/full-map.png)  
+![Zoomed In](screenshots/zoomed.png)  
+
+### Setup Notes
+- Download free shapefile from: https://www.naturalearthdata.com/downloads/110m-cultural-vectors/  
+- Unzip to `data/ne_110m_admin_0_countries/` (do NOT commit to repo)  
+- Add GeoTools JARs to classpath  
+- Use JavaFX VM args: `--module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml,javafx.swing`
+
+Skills demonstrated: GIS data handling, open-source library integration, Java desktop development, UI embedding.
