@@ -17,9 +17,6 @@ Showcases open-source GIS integration, shapefile handling, cartographic styling,
 - GeoTools (gt-shapefile, gt-swing)  
 - SwingNode  
 
-### Screenshots
-![Full Map View](screenshots/full-map.png)  
-![Zoomed In](screenshots/zoomed.png)  
 
 ### Setup Notes
 - Download free shapefile from: https://www.naturalearthdata.com/downloads/110m-cultural-vectors/  
